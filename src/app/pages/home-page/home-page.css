@@ -1,0 +1,11 @@
+#container{
+  height: 100vh;
+  overflow-y: auto;
+  /* voor zeker te zijn dat de scroll werkt in oudere browsers*/
+  scroll-behavior: smooth;
+}
+
+.section{
+  height: 100vh;
+
+}

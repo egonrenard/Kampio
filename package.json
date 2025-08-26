@@ -32,6 +32,8 @@
     "@angular/router": "^20.2.0",
     "@angular/ssr": "^20.2.0",
     "express": "^5.1.0",
+    "jquery": "^3.7.1",
+    "pagepiling.js": "^1.5.6",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0"
   },

@@ -1,0 +1,12 @@
+.home-info {
+  /* Diagonal gradient van linkerboven naar rechteronder */
+  background: #F5FCFF;
+  /* Zorgt dat het hele scherm gevuld is */
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+
+
+}
