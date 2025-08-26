@@ -80,7 +80,7 @@ button:hover{
   position: absolute;
   height: auto;
   object-fit: contain;
-  filter: grayscale(50%) brightness(50%);
+  filter: grayscale(90%) contrast(200%);
   transform-origin: center;
 }
 
