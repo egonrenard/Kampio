@@ -5,10 +5,22 @@
   box-sizing: border-box;
 }
 
-h1,h2 ,button{
+h1,h2,h3 ,button{
   font-family: 'PT Sans', sans-serif;
   font-weight: 700;
   text-align: center;
+}
+
+h1{
+  font-size: 4.6em;
+}
+
+h2{
+  font-size: 3em;
+}
+
+h3{
+  font-size: 2em;
 }
 
 p{
@@ -17,4 +29,5 @@ p{
   font-weight: 400;
   font-style: normal;
   line-height: 1.5;
+  word-spacing: 2px;
 }

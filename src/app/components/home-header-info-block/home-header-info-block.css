@@ -1,0 +1,29 @@
+.home-header-info-block{
+  max-width: 10vw;
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  gap: 2vh;
+  align-items: center;
+  justify-content: center;
+
+}
+
+h3{
+  color:white;
+  font-size: 2em;
+  line-height: 1.10;
+  letter-spacing: 1px;
+
+}
+
+p{
+  color:white;
+  font-weight: 300;
+  font-size: 1.15em;
+  line-height: 1;
+}
+
+img{
+  width: 2.75vw;
+}

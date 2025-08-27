@@ -1,6 +1,6 @@
 .home-header{
   /* Diagonal gradient van linkerboven naar rechteronder */
-  background: linear-gradient(to bottom right, #029CDB, #2AC58C);
+  background: linear-gradient(to bottom right, #029BDC 0%, #2CC78A 90%);
   margin: 0;
   display:flex;
   flex-direction: column;
@@ -13,11 +13,11 @@
 }
 
 h1{
-  font-size: 5em;
   padding:0;
   margin:0;
   line-height: 0.95;
   display: block;
+  letter-spacing: 2px
 }
 
 h1 .title{
@@ -42,7 +42,7 @@ h1 .subtitle{
 }
 
 button{
-  background-color: #2DC88A;
+  background: linear-gradient(to bottom right, #229b79 20%, #008ec2 90%);
   color:white;
   border: none;
   padding: 12px 24px;
@@ -51,17 +51,24 @@ button{
   border: none;
   font-size: 1.5em;
   transition: transform 0.2s,box-shadow 0.2s;
-  box-shadow: 0px 0px 10px 1px white;
+  box-shadow: 0px 0px 10px 2px white;
 }
 
 button:hover{
   transform: scale(1.05);
-  box-shadow: 0px 0px 10px 3px white;
+  box-shadow: 0px 0px 14px 4px white;
+}
+
+/* iets kleiner bij klik */
+button:active {
+  transform: scale(0.95);
+  box-shadow: 0px 0px 6px 2px white;
 }
 
 .description-container{
+  text-align: center;
   margin-top: 4vh;
-  font-size: 1.5em;
+  font-size: 1.40em;
   color:white;
   max-width: 42%;
 }
@@ -80,7 +87,7 @@ button:hover{
   position: absolute;
   height: auto;
   object-fit: contain;
-  filter: grayscale(90%) contrast(200%);
+  filter: grayscale(80%) opacity(0.2) brightness(0.6);
   transform-origin: center;
 }
 
@@ -107,4 +114,10 @@ button:hover{
   opacity: 0.3;
   width: 42vw;
   transform: rotateY(180deg)
+}
+
+.infoblock-container{
+  display: flex;
+  flex-direction: row;
+  gap: 6vw;
 }

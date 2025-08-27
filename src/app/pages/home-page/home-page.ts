@@ -1,10 +1,10 @@
 import { Component, ElementRef, HostListener, ViewChild } from '@angular/core';
 import { HomeHeader } from '../../components/home-header/home-header';
-import { HomeInfo } from '../../components/home-info/home-info';
+import { HomeBody } from '../../components/home-body/home-body';
 
 @Component({
   selector: 'app-home-page',
-  imports: [HomeHeader, HomeInfo],
+  imports: [HomeHeader, HomeBody],
   templateUrl: './home-page.html',
   styleUrl: './home-page.css'
 })
