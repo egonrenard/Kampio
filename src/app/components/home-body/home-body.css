@@ -1,20 +1,30 @@
 .home-body{
-  background-color: #F5FCFF;
+  background-color: #f5fcff;
   height: 100%;
   padding: 2%;
   display:flex;
   flex-direction: column;
   align-items: center;
+  box-sizing: border-box;
 }
+
 
 h2{
   color: #1D252F;
   margin-bottom: 2vh;
 }
 
-.description-container{
+.description{
   color: #6F7083;
-  width: 40vw;
+  width: 35vw;
   font-size: 1.25em;
   text-align: center;
+}
+
+.infoblock-container{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  width:100%;
+  padding: 4% 12%;
 }
