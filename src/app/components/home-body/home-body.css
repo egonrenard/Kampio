@@ -28,3 +28,28 @@ h2{
   width:100%;
   padding: 4% 12%;
 }
+
+button {
+  background: #FA9E33;
+  color: white;
+  border: none;
+  width: 20vw;
+  padding: 1vh;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  font-size: 1.5em;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 1px 1px 4px 4px #00000028;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 1px 1px 10px 5px #009adc34;
+}
+
+/* iets kleiner bij klik */
+button:active {
+  transform: scale(0.95);
+  box-shadow: 1px 1px 10px 8px #009adc34;
+}

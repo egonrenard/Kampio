@@ -1,0 +1,33 @@
+.home-bottom {
+  background-color: #f5fcff;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.home-bottom-content{
+  padding: 2%;
+}
+
+
+h2 {
+  color: #1D252F;
+  margin-bottom: 2vh;
+}
+
+.description {
+  color: #6F7083;
+  width: 35vw;
+  font-size: 1.25em;
+  text-align: center;
+  margin-bottom: 2vh;
+}
+
+.home-bottem-display-container{
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1.2fr 0.8fr;
+}

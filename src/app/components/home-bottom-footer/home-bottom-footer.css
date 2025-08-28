@@ -1,0 +1,29 @@
+.home-footer{
+  background: linear-gradient(to bottom right, #1f8b6d 20%, #0081af 90%);
+  height: 100%;
+  width: 100%;
+}
+
+p{
+  color: white;
+}
+
+#website-rights{
+  padding: 1%;
+  text-align: center;
+}
+
+.footer-content{
+  display:flex;
+  flex-direction: column ;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-content-container{
+  padding: 1%;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.479);
+  display:flex; 
+  gap: 2vw;
+  flex-direction: row;
+}
