@@ -29,5 +29,5 @@ h2 {
   height: 100%;
   width: 100%;
   display: grid;
-  grid-template-rows: 1.2fr 0.8fr;
+  grid-template-rows: 2fr 1fr;
 }

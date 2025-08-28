@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { FooterContainer } from '../home-footer-container/footer-container';
 
 @Component({
   selector: 'app-home-bottom-footer',
-  imports: [],
+  imports: [FooterContainer],
   templateUrl: './home-bottom-footer.html',
   styleUrl: './home-bottom-footer.css'
 })

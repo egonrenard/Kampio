@@ -1,3 +1,9 @@
 .home-camp-container{
-  padding: 2%
+  padding: 2%;
+  width: 100%;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 1% 10%;
+  gap: 3vw;
+
 }
