@@ -8,6 +8,11 @@
   position: relative;
 }
 
+.home-camp-card:hover{
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
 .home-camp-card-content{
   position: absolute;
   background-color: white;
