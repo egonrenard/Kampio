@@ -1,7 +1,67 @@
 .home-camp-card{
   background-color: white;
-  padding: 4% 5%;
+  z-index: 1;
   border-radius: 5px;
   height: 30vh;
-  box-shadow: 0px 0px 3px 0px #e5e7eb;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 1px 1px 10px 0px #009adc3b;
+  position: relative;
 }
+
+.home-camp-card-content{
+  position: absolute;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  padding: 4% 5%;
+  z-index: 10
+}
+
+.home-camp-card::before,
+.home-camp-card::after{
+  content:"";
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+
+.home-camp-card:hover::before,
+.home-camp-card:hover::after{
+  content:"";
+  position:absolute;
+  border-radius: inherit;
+  inset: -.25rem;
+  z-index: 0;
+  background: conic-gradient( 
+    from var(--gradient-angle),
+    #009adc3b,
+    #0000003b,
+    #009adc3b,
+    #0000003b,
+    #009adc3b);
+
+  animation: rotation 5s linear infinite;
+
+  opacity: 1;
+
+}
+
+.home-camp-card:hover::after{
+  filter: blur(1.5rem)
+}
+
+@property --gradient-angle{
+  syntax: '<angle>';
+  inherits: false;
+  initial-value: 0deg;
+}
+@keyframes rotation{
+  0%{
+    --gradient-angle: 0deg;
+  }
+  100%{
+    --gradient-angle: 360deg;
+  }
+}
+

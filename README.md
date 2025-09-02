@@ -38,9 +38,9 @@ This will compile your project and store the build artifacts in the `dist/` dire
 
 ## Building liberarys needed
 
-pagepiling.js
+in memory web api for testing 
 ```bash
-npm install pagepiling.js
+npm install angular-in-memory-web-api --save
 ```
 
 ## Running unit tests

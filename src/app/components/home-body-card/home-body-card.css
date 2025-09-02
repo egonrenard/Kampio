@@ -10,10 +10,11 @@
   align-items: center;
   padding: 5%;
   transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 1px 1px 10px 0px #009adc3b;
 }
 
 .home-body-card:hover {
-  box-shadow: 1px 1px 10px 0px #009adc3b;
+  box-shadow: 1px 1px 10px 0px #0000003b;
   transform: scale(1.02);
 }
 
