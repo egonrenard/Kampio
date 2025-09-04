@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Camp } from '../../modules/camp';
 
 @Component({
   selector: 'app-home-camp-card',
@@ -7,5 +8,10 @@ import { Component } from '@angular/core';
   styleUrl: './home-camp-card.css'
 })
 export class HomeCampCard {
+  @Input() camp!: Camp;
+
+  ngOnInit() {
+    console.log(this.camp);
+  }
 
 }

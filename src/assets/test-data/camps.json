@@ -18,7 +18,8 @@
     "capacity": 40,
     "price": 195,
     "ageMin": 8,
-    "ageMax": 14
+    "ageMax": 14,
+    "rating": 4.5
   },
   {
     "id": 2,
@@ -39,7 +40,8 @@
     "capacity": 24,
     "price": 165,
     "ageMin": 6,
-    "ageMax": 12
+    "ageMax": 12,
+    "rating": 4.0
   },
     {
     "id": 3,
@@ -60,6 +62,7 @@
     "capacity": 24,
     "price": 225,
     "ageMin": 10,
-    "ageMax": 16
+    "ageMax": 16,
+    "rating": 4.8
   }
 ]

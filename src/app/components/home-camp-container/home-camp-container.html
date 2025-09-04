@@ -1,5 +1,5 @@
 <div class="home-camp-container">
-  <app-home-camp-card></app-home-camp-card>
-  <app-home-camp-card></app-home-camp-card>
-  <app-home-camp-card></app-home-camp-card>
+  @for (camp of camps;track camp.id) {
+    <app-home-camp-card [camp]="camp"></app-home-camp-card>
+  }
 </div>

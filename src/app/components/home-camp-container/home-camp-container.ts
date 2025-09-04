@@ -19,7 +19,6 @@ export class HomeCampContainer {
     this.campService.getCamps().subscribe(data => {
       this.camps = data;
     });
-   console.log(this.camps);
   }
 
 }
