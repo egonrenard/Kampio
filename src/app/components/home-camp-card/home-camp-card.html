@@ -1,5 +1,11 @@
 <div class="home-camp-card">
   <div class="home-camp-card-content">
-    <p>home-camp-card works!</p>
+    <p class="organization">{{ camp.organisation }}</p>
+    <h2 class="title">{{ camp.name }}</h2>
+    <div class="location">
+      <img>
+      <p>{{camp.location.showCityAndProvince() }}</p>
+      <p>{{camp.campMonth() }}</p>
+    </div>
   </div>
 </div>

@@ -10,8 +10,4 @@ import { Camp } from '../../modules/camp';
 export class HomeCampCard {
   @Input() camp!: Camp;
 
-  ngOnInit() {
-    console.log(this.camp);
-  }
-
 }
