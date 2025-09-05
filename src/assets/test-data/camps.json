@@ -2,15 +2,9 @@
   {
     "id": 1,
     "name": "Zomer Triatlon Kamp",
-    "sport": "Triatlon",
+    "sports": ["Triatlon"], 
     "organisation": "Triatlon Club Gent",
-    "location": {
-      "street": "Sportstraat ",
-      "city": "Gent",
-      "postalCode": "2000",
-      "houseNumber" : "12",
-      "province" : "Oost-Vlaanderen"
-    },
+    "locationId": 1,
     "startDate": "2025-07-07",
     "endDate": "2025-07-11",
     "startHour": "09:00",
@@ -24,15 +18,9 @@
   {
     "id": 2,
     "name": "Zomerkamp Tennis",
-    "sport": "Tennis",
+    "sports": ["Tennis"],
     "organisation": "XYZ Tennis Club",
-    "location": {
-      "street": "Tennislaan",
-      "city": "Gent",
-      "postalCode": "9000",
-      "houseNumber" : "5",
-      "province" : "Oost-Vlaanderen"
-    },
+    "locationId": 2,
     "startDate": "2025-07-28",
     "endDate": "2025-08-08",
     "startHour": "10:00",
@@ -46,15 +34,9 @@
     {
     "id": 3,
     "name": "Zwemkamp Kids Brugge",
-    "sport": "Zwemmen",
+    "sports": ["Zwemmen"],
     "organisation": "Brugge Triatlon",
-    "location": {
-      "street": "Randomstraat",
-      "city": "Gent",
-      "postalCode": "8000",
-      "houseNumber" : "99",
-      "province" : "West-Vlaanderen"
-    },
+    "locationId": 3,
     "startDate": "2025-08-12",
     "endDate": "2025-08-17",
     "startHour": "10:00",

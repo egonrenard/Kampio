@@ -23,13 +23,7 @@ export class HomeCampContainer {
         camp.name,
         camp.sport,
         camp.organisation,
-        new Location(
-          camp.location.street,
-          camp.location.houseNumber,
-          camp.location.city,
-          camp.location.postalCode,
-          camp.location.province
-        ),
+        camp.locationId,
         camp.startDate,
         camp.endDate,
         camp.startHour,
@@ -38,6 +32,7 @@ export class HomeCampContainer {
         camp.price,
         camp.ageMin,
         camp.ageMax,
+        camp.location,
         camp.rating ?? null
       ))
     });

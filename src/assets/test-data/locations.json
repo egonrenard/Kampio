@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "street": "Sportstraat",
+    "houseNumber": "12",
+    "city": "Gent",
+    "postalCode": "2000",
+    "province": "Oost-Vlaanderen"
+  },
+  {
+    "id": 2,
+    "street": "Tennislaan",
+    "houseNumber": "5",
+    "city": "Gent",
+    "postalCode": "9000",
+    "province": "Oost-Vlaanderen"
+  },
+  {
+    "id": 3,
+    "street": "Randomstraat",
+    "houseNumber": "99",
+    "city": "Brugge",
+    "postalCode": "8000",
+    "province": "West-Vlaanderen"
+  }
+]

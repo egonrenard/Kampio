@@ -1,5 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { Camp } from '../../modules/camp';
+import { Location } from '../../modules/location';
 
 @Component({
   selector: 'app-home-camp-card',
@@ -9,5 +10,6 @@ import { Camp } from '../../modules/camp';
 })
 export class HomeCampCard {
   @Input() camp!: Camp;
+  
 
 }

@@ -15,6 +15,9 @@
 }
 
 .home-body-card-content {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
   position: absolute;
   background-color: white;
   height: 100%;
