@@ -5,13 +5,22 @@
     <div class="location">
       <img>
       <p>{{camp.location.showCityAndProvince() }}</p>
-      <p>{{camp.campMonth() }}</p>
-      <p>{{camp.campTimeRange() }}</p>
-      <div>
-        <p>{{camp.campAgeRange() }} jaar</p>
-        <p>{{camp.numberOfInscriptions}} van {{camp.capacity}}</p>
-      </div>
-      <p>{{camp.sports}}</p>
     </div>
+
+    <p>{{camp.campMonth() }}</p>
+    <p>{{camp.campTimeRange() }}</p>
+
+    <div>
+      <p>{{camp.campAgeRange() }} jaar</p>
+      <p>{{camp.numberOfInscriptions}} van {{camp.capacity}}</p>
+    </div>
+
+    <div class="sport-container">
+      @for (sport of camp.sports; track sport) {
+        <p>{{ sport }}</p>
+      }
+    </div>
+
+    <p>{{camp.price | currency:'EUR'}}</p>
   </div>
 </div>

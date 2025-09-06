@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Zomer Triatlon Kamp",
-    "sports": ["Triatlon"], 
+    "sports": ["Triatlon", "Zwemmen", "Fietsen", "Lopen"], 
     "organisation": "Triatlon Club Gent",
     "locationId": 1,
     "startDate": "2025-07-07",
@@ -18,7 +18,7 @@
   {
     "id": 2,
     "name": "Zomerkamp Tennis",
-    "sports": ["Tennis"],
+    "sports": ["Tennis","Lopen","Spelletjes"],
     "organisation": "XYZ Tennis Club",
     "locationId": 2,
     "startDate": "2025-07-28",

@@ -21,7 +21,7 @@ export class HomeCampContainer {
       this.camps = data.map((camp: any) => new Camp(
         camp.id,
         camp.name,
-        camp.sport,
+        camp.sports,
         camp.organisation,
         camp.locationId,
         camp.startDate,

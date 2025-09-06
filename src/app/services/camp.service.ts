@@ -22,11 +22,10 @@ export class CampService {
           const location = locations.find(l => l.id === c.locationId);
           if (!location) throw new Error(`Location met ID ${c.locationId} niet gevonden`);
           
-          
           return new Camp(
             c.id,
             c.name,
-            [c.sport],
+            c.sports,
             c.organisation,
             c.locationId,
             c.startDate,
