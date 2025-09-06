@@ -14,13 +14,14 @@ export class CampService {
   getCamps(): Observable<Camp[]> {
     return forkJoin({
       camps: this.http.get<any[]>(this.url),
-      locations: this.locationService.getLocations() // gebruik je LocationService
+      locations: this.locationService.getLocations() 
     }).pipe(
       map(({ camps, locations }) => {
         return camps.map(c => {
           // zoek de juiste location via LocationService data
           const location = locations.find(l => l.id === c.locationId);
           if (!location) throw new Error(`Location met ID ${c.locationId} niet gevonden`);
+          
           
           return new Camp(
             c.id,

@@ -41,17 +41,53 @@ h1 .subtitle{
   gap: 5%;
 }
 
-button{
-  background: linear-gradient(to bottom right, #1f8b6d 20%, #0081af 90%);
-  color:white;
+button {
+  display: flex;
+  position: relative;
+  background: conic-gradient(from var(--gradient-angle),
+      #ffffff,
+      #ffffff60,
+      #ffffff,
+      #ffffff60,
+      #ffffff);
+  color: white;
   border: none;
-  padding: 3%;
-  border-radius: 4px;
+  height: 3.5em;
+  width: 15em;
+  border-radius: 0.25rem;
   cursor: pointer;
-  border: none;
   font-size: 1.5em;
-  transition: transform 0.2s,box-shadow 0.2s;
-  box-shadow: 0px 0px 10px 2px white;
+  z-index: 0;
+  transition: transform 0.2s, box-shadow 0.2s;
+  animation: rotation 5s linear infinite;
+  
+}
+
+.button-content {
+  position: absolute;
+  inset: 0.25rem;
+  background: linear-gradient(to bottom right, #1f8b6d 20%, #0081af 90%);
+  border-radius: inherit;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@property --gradient-angle {
+  syntax: '<angle>';
+  inherits: false;
+  initial-value: 0deg;
+}
+
+@keyframes rotation {
+  0% {
+    --gradient-angle: 0deg;
+  }
+
+  100% {
+    --gradient-angle: 360deg;
+  }
 }
 
 button:hover{
